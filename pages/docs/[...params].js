@@ -4,9 +4,9 @@ import { useRouter } from 'next/router'
 const Docs = () => {
   const router = useRouter()
   const {params} = router.query
-  console.log(router);
+  // console.log(params);
   return (
-    <h1>Docs Page</h1>
+    <h1>Docs Page {params}</h1>
   )
 }
 
