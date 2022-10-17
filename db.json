@@ -1,5 +1,67 @@
 {
-  "products": [
+  "news": [
+    {
+      "id": 1,
+      "title": "News Article 1",
+      "category": "health",
+      "description": "This is Article 1"
+    },
+    {
+      "id": 2,
+      "title": "News Article 2",
+      "category": "business",
+      "description": "This is Article 2"
+    },
+    {
+      "id": 3,
+      "title": "News Article 3",
+      "category": "politics",
+      "description": "This is Article 3"
+    },
+    {
+      "id": 4,
+      "title": "News Article 4",
+      "category": "sports",
+      "description": "This is Article 4"
+    },
+    {
+      "id": 5,
+      "title": "News Article 5",
+      "category": "entertainment",
+      "description": "This is Article 5"
+    },
+    {
+      "id": 6,
+      "title": "News Article 6",
+      "category": "health",
+      "description": "This is Article 6"
+    },
+    {
+      "id": 7,
+      "title": "News Article 7",
+      "category": "business",
+      "description": "This is Article 7"
+    },
+    {
+      "id": 8,
+      "title": "News Article 8",
+      "category": "politics",
+      "description": "This is Article 8"
+    },
+    {
+      "id": 9,
+      "title": "News Article 9",
+      "category": "sports",
+      "description": "This is Article 9"
+    },
+    {
+      "id": 10,
+      "title": "News Article 10",
+      "category": "entertainment",
+      "description": "This is Article 10"
+    }
+  ],
+   "products": [
     {
       "id": 1,
       "title": "product 1",
