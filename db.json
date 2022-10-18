@@ -1,4 +1,10 @@
 {
+  "dashboard": {
+    "posts": 5,
+    "likes": 100,
+    "followers": 20,
+    "following": 50
+  },
   "news": [
     {
       "id": 1,
@@ -15,7 +21,7 @@
     {
       "id": 3,
       "title": "News Article 3",
-      "category": "politics",
+      "category": "business",
       "description": "This is Article 3"
     },
     {
@@ -45,7 +51,7 @@
     {
       "id": 8,
       "title": "News Article 8",
-      "category": "politics",
+      "category": "business",
       "description": "This is Article 8"
     },
     {
