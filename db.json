@@ -1,10 +1,82 @@
 {
   "dashboard": {
     "posts": 5,
-    "likes": 100,
+    "likes": 5000,
     "followers": 20,
     "following": 50
   },
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "category": "health",
+      "description": "This is Event 1",
+      "date": "April 25"
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "category": "business",
+      "description": "This is Event 2",
+      "date": "April 25"
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "category": "business",
+      "description": "This is Event 3",
+      "date": "December 25"
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "category": "sports",
+      "description": "This is Event 4",
+      "date": "June 25"
+    },
+    {
+      "id": 5,
+      "title": "Event 5",
+      "category": "entertainment",
+      "description": "This is Event 5",
+      "date": "February 25"
+    },
+    {
+      "id": 6,
+      "title": "Event 6",
+      "category": "health",
+      "description": "This is Event 6",
+      "date": "July 25"
+    },
+    {
+      "id": 7,
+      "title": "Event 7",
+      "category": "business",
+      "description": "This is Event 7",
+      "date": "May 2"
+    },
+    {
+      "id": 8,
+      "title": "Event 8",
+      "category": "business",
+      "description": "This is Event 8",
+      "date": "August 20"
+    },
+    {
+      "id": 9,
+      "title": "Event 9",
+      "category": "sports",
+      "description": "This is Event 9",
+      "date": "January 12"
+    },
+    {
+      "id": 10,
+      "title": "Event 10",
+      "category": "entertainment",
+      "description": "This is Event 10",
+      "date": "March 7"
+    }
+  ],
   "news": [
     {
       "id": 1,
