@@ -9,7 +9,7 @@
     {
       "id": 1,
       "title": "Event 1",
-      "category": "health",
+      "category": "sports",
       "description": "This is Event 1",
       "date": "April 25"
     },
@@ -30,14 +30,14 @@
     {
       "id": 4,
       "title": "Event 4",
-      "category": "sports",
+      "category": "entertainment",
       "description": "This is Event 4",
       "date": "June 25"
     },
     {
       "id": 5,
       "title": "Event 5",
-      "category": "entertainment",
+      "category": "sports",
       "description": "This is Event 5",
       "date": "February 25"
     },
@@ -58,21 +58,21 @@
     {
       "id": 8,
       "title": "Event 8",
-      "category": "business",
+      "category": "sports",
       "description": "This is Event 8",
       "date": "August 20"
     },
     {
       "id": 9,
       "title": "Event 9",
-      "category": "sports",
+      "category": "entertainment",
       "description": "This is Event 9",
       "date": "January 12"
     },
     {
       "id": 10,
       "title": "Event 10",
-      "category": "entertainment",
+      "category": "sports",
       "description": "This is Event 10",
       "date": "March 7"
     }
