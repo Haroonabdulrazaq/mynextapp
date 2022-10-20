@@ -44,15 +44,15 @@ const CommentPage = () => {
   return (
     <>
     <input type="text" value={comment} onChange={ (e)=>setComment(e.target.value)} />
-    <button onClick={submitComment}>Submit Comment</button>
+    <button onClick={submitComment} className='btn btn-primary'>Submit Comment</button>
     <hr />
-    <button onClick={fetchComments}>Load comments</button>
+    <button onClick={fetchComments} className='btn btn-primary'>Load comments</button>
       <h2>List of comments</h2>
         {
           comments.map((comment)=>(
             <div key={comment.id}>
               <h2>{comment.id} - {comment.text} </h2>
-              <button onClick={()=>handleDelete(comment.id)}>Delete</button>
+              <button onClick={()=>handleDelete(comment.id)} className='btn-primary'>Delete</button>
               <hr />
             </div>
           ))
