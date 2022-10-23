@@ -7,6 +7,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - API handling
 - Styling
 - Misceallneous
+  - image
+  - TypeScript Support
 - Authentication
 - Deployment
 
