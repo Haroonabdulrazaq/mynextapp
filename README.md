@@ -9,6 +9,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Misceallneous
   - image
   - TypeScript Support
+  - Layout
 - Authentication
 - Deployment
 
