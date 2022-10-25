@@ -12,6 +12,10 @@ const Header = () => {
         <a >About</a>
       </Link>
       {' '}
+      <Link href="/blog/1">
+        <a >Article</a>
+      </Link>
+      {' '}
       <Link href="/comments">
         <a >Comments</a>
       </Link>

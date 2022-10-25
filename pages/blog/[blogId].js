@@ -8,7 +8,7 @@ const Article = ({title, description}) => {
         <title>{title}</title>
         <meta name='description' content={description} />
     </Head>
-      <div>Article</div>
+      <div className='content'>Article</div>
     </>
   )
 }
