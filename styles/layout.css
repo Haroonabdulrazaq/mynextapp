@@ -13,3 +13,18 @@
   text-align: center;
   padding: 30px;
 }
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.content-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding-top: 20px;
+  min-height: 100vh;
+}

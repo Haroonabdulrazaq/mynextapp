@@ -42,10 +42,10 @@ const CommentPage = () => {
   }
 
   return (
-    <>
+    <div className='content-vertical'>
     <input type="text" value={comment} onChange={ (e)=>setComment(e.target.value)} />
     <button onClick={submitComment} className='btn btn-primary'>Submit Comment</button>
-    <hr />
+
     <button onClick={fetchComments} className='btn btn-primary'>Load comments</button>
       <h2>List of comments</h2>
         {
@@ -57,7 +57,7 @@ const CommentPage = () => {
             </div>
           ))
         }
-    </>
+    </div>
   )
 }
 
