@@ -13,6 +13,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Authentication
 - Deployment
 
+Next Export: Export our application from Nextjs to static HTML.
+Add next eport to your application by adding a command in package.json
+`"export": "next build && next export"`
+
+The application would export your Nextjs app into a static HTML page when you run
+`npm run export`
+
+### Limitation
+
+- You can't export appliation with getServerSideProps
+- You can't export an application with ISR Incremental Server rendering
+- You can't export an application without a getStaticPaths when you use getStaticProps (GetStaticProps is allowed but not without getStaticPaths and Fallback has to be set to True)
+- You can't use the Image tag from next/Image.
+
 ## Getting Started
 
 First, run the development server:
