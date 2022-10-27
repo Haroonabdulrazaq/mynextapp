@@ -8,6 +8,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - Styling
 - Misceallneous
   - image
+  - HTML export
   - TypeScript Support
   - Layout
 - Authentication
@@ -26,6 +27,14 @@ The application would export your Nextjs app into a static HTML page when you ru
 - You can't export an application with ISR Incremental Server rendering
 - You can't export an application without a getStaticPaths when you use getStaticProps (GetStaticProps is allowed but not without getStaticPaths and Fallback has to be set to True)
 - You can't use the Image tag from next/Image.
+
+## TypeScript Support
+
+- Add tsconfig to replace jsconfig in the root folder
+- Run `npm run dev` to restart the server
+- You tsconfig would be automatically populated
+- If you use baseURL or path alise, youll need to uodate it in your
+  `tsconfg.json file`
 
 ## Getting Started
 
