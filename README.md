@@ -36,6 +36,9 @@ The application would export your Nextjs app into a static HTML page when you ru
 - If you use baseURL or path alise, youll need to uodate it in your
   `tsconfg.json file`
 
+  Next-auth
+  Recommended way is to use Next-auth.js.org
+
 ## Getting Started
 
 First, run the development server:
