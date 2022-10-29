@@ -37,7 +37,10 @@ The application would export your Nextjs app into a static HTML page when you ru
   `tsconfg.json file`
 
   Next-auth
-  Recommended way is to use Next-auth.js.org
+  Recommended way is to use Next-auth.js.org.
+  Social Login
+  Conventional Password
+  Support Login with Database like MongoDB
 
 ## Getting Started
 
