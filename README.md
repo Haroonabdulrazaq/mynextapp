@@ -41,6 +41,9 @@ The application would export your Nextjs app into a static HTML page when you ru
   Social Login
   Conventional Password
   Support Login with Database like MongoDB
+  Authentication Summary
+  What Next?
+  Final Remarks
 
 ## Getting Started
 
