@@ -44,6 +44,7 @@ The application would export your Nextjs app into a static HTML page when you ru
   Authentication Summary
   What Next?
   Final Remarks
+  Start again tomorrow
 
 ## Getting Started
 
