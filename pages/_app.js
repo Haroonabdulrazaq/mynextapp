@@ -2,7 +2,7 @@ import 'styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'styles/layout.css'
 import Head from 'next/head';
-
+import '../components/Navbar.css'
 import Header from '@/layout/Header';
 import Footer from '@/layout/Footer';
 
