@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'styles/layout.css'
 import Head from 'next/head';
 import '../components/Navbar.css'
+
+import Navbar from '../components/Navbar.js'
 import Header from '@/layout/Header';
 import Footer from '@/layout/Footer';
 
@@ -15,6 +17,7 @@ function MyApp({ Component, pageProps }) {
       <title>Haroon Abdulrazaq</title>
       <meta name='description' content='This project is about learning Next.js' />
     </Head>
+    <Navbar/>
     <Header/>
     <Component {...pageProps} />
     <Footer/>
