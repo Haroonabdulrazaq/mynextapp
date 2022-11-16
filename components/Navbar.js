@@ -1,8 +1,9 @@
 import Link from 'next/link'
-import { signIn, signOut, useSession } from 'next-auth/client'
+import { signIn, signOut, useSession } from 'next-auth/react'
 
 function Navbar() {
-  const [session, loading] = useSession()
+  const {loading, session} = useSession()
+  // const { data: session, status } = useSession()
   return (
     <nav className='header'>
       <h1 className='logo'>
@@ -14,14 +15,16 @@ function Navbar() {
             <a>Home</a>
           </Link>
         </li>
+        {session && (
+          <li>
+            <Link href='/dashboard'>
+              <a>Dashboard</a>
+            </Link>
+          </li>
+        )}
         <li>
-          <Link href='/dashboard'>
-            <a>Dashboard</a>
-          </Link>
-        </li>
-        <li>
-          <Link href='/blog'>
-            <a>Blog</a>
+          <Link href='/bloc'>
+            <a>Bloc</a>
           </Link>
         </li>
 
@@ -31,7 +34,7 @@ function Navbar() {
               <a
                 onClick={e => {
                   e.preventDefault()
-                  signIn('github')
+                  signIn()
                 }}>
                 Sign In
               </a>
